@@ -19,8 +19,8 @@ the samples generated at different time points along the path can be treated as 
 3. Initialize an empty history array, H = [].
 4. Generate an initial state, X, for the system at time t.
 5. Append X to H: H.append(X).
-6. Repeat steps 7-10 until t = T:
-    7. Generate a proposal state, Y, for the system at time t.
+6. Repeat steps 7-10 until t = T:\
+    7. Generate a proposal state, Y, for the system at time t.\
     8. Compute the acceptance probability, p = min(1, P(Y)/P(X)), where P(.) is the target distribution.
     9. Generate a random number, u, from a uniform distribution between 0 and 1.
     10. If u <= p, set X = Y; otherwise, set X = X.
