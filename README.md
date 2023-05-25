@@ -1,9 +1,8 @@
-# Coupling From The Past
-
 This repo contains a naive-generic-general implementation of the CFTP algorithm. It provides also a notebook of the Ising Model simulation using a specific version of the algorithm.
 
 ***
 
+# Coupling From The Past
 The Coupling from the Past (CFTP) algorithm is a technique used in statistical physics and probabilistic graphical models to sample
 from the stationary distribution of a Markov chain. It was introduced by Propp and Wilson in 1996 as a method for exact sampling from
 a Markov chain without the need for burn-in or mixing time considerations.
